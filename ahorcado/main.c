@@ -19,7 +19,7 @@ int main(){
     printf("La palabra tiene %d letras\n",i-1);
     while (i!=0){
         printf("\nIntroduce una letra: ");
-        scanf("%c",&letra);
+        scanf(" %c",&letra);
         if ('a'<=letra && 'z'>=letra){
             printf("\nEs una letra\n");
             /*for (k=0;k<26;k++){
